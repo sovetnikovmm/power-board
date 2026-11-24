@@ -72,7 +72,7 @@ During normal operation, the external control board controls the main lamp and i
 | C6 | 1 | 470 µF | Aluminum electrolytic capacitor, 16 V, 20% | EPCOS | B41851K4477M000 | THT |
 | DA1 | 1 | L7805CV-DG | Linear voltage regulator, +5 V | ST Microelectronics | L7805CV-DG | TO-220 |
 | R1, R10 | 2 | 5.1 kΩ | Resistor, 0.25 W, 5% | Yageo | CF-1/4W-5K1J | CF-25 |
-| R2 | 1 | 150 Ω | Resistor, 2 W, 5% | Yageo | MO-2W-150RJ | CF-25 |
+| R2 | 1 | 150 Ω | Resistor, 2 W, 5% | Yageo | MO-2W-150RJ | Axial, THT |
 | R3, R5, R6, R7, R9 | 5 | 10 kΩ | Resistor, 0.25 W, 5% | Yageo | CF-1/4W-10KJ | CF-25 |
 | R4, R8 | 2 | 1 kΩ | Resistor, 0.25 W, 5% | Yageo | CF-1/4W-1KJ | CF-25 |
 | VD1 | 1 | 1N5404 | Rectifier diode | Diotec Semiconductor | 1N5404 | DO-201AD |
@@ -87,7 +87,6 @@ During normal operation, the external control board controls the main lamp and i
 
 - Lamp control and fault-response logic reside on the external control board. This board contains no microcontroller.
 - Break T1 and Break T2 are filtered lamp-node feedback signals, not independent digital fault decisions.
-- The BOM table follows the supplied CSV. The package entry for the 2 W resistor R2 is listed as CF-25 in that file and should be checked against the actual footprint before assembly.
 
 ## Documentation (Russian)
 

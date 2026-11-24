@@ -1,16 +1,15 @@
-Name,Description,Designator,Quantity,Manufacter,Part Number,Package
-
-"0.1 µF","Ceramic capacitor, 50 V, 20%","C1, C3, C5, C7","4","Murata","RDEF51H104Z0K1C03B ","THT"
-"470 µF","Aluminum electrolytic capacitor, 35 V, 20%","C2","1","Jamicon","TKR471M1VG16M","THT"
-"330 µF","Aluminum electrolytic capacitor, 35 V, 20%","C4","1","EPCOS","B41851A7337M008","THT"
-"470 µF","Aluminum electrolytic capacitor, 16 V, 20%","C6","1","EPCOS","B41851K4477M000","THT"
-"L7805CV-DG","Linear voltage regulator, +5 V","DA1","1","ST Microelectronics","L7805CV-DG","TO-220"
-"5.1 kO","Resistor, 0.25 W, 5%","R1, R10","2","Yageo","CF-1/4W-5K1J","CF-25"
-"150 O","Resistor, 2 W, 5%","R2","1","Yageo","MO-2W-150RJ ","CF-25"
-"10 kO","Resistor, 0.25 W, 5%","R3, R5, R6, R7, R9","5","Yageo","CF-1/4W-10KJ","CF-25"
-"1 kO","Resistor, 0.25 W, 5%","R4, R8","2","Yageo","CF-1/4W-1KJ ","CF-25"
-"1N5404","Rectifier diode","VD1","1","Diotec Semiconductor","1N5404","DO-201AD"
-"IRFZ48NPBF","N-channel MOSFET","VT1, VT3","2","Infineon Technologies","IRFZ48NPBF","TO-220AB"
-"2N5551","NPN bipolar transistor","VT2","1","Diotec Semiconductor","2N5551","TO-92"
-"L-KLS1-2.50-08-R","8-position connector","XP1","1","KLS Electronics","L-KLS1-2.50-08-R","THT"
-"DG35C-B-05P-13-200A(H)","5-position terminal block","XS1","1","Degson Electronics","DG35C-B-05P-13-200A(H)","THT"
+ï»¿Name,Description,Designator,Quantity,Manufacter,Part Number,Package
+0.1 ÂµF,"Ceramic capacitor, 50 V, 20%","C1, C3, C5, C7",4,Murata,RDEF51H104Z0K1C03B ,THT
+470 ÂµF,"Aluminum electrolytic capacitor, 35 V, 20%",C2,1,Jamicon,TKR471M1VG16M,THT
+330 ÂµF,"Aluminum electrolytic capacitor, 35 V, 20%",C4,1,EPCOS,B41851A7337M008,THT
+470 ÂµF,"Aluminum electrolytic capacitor, 16 V, 20%",C6,1,EPCOS,B41851K4477M000,THT
+L7805CV-DG,"Linear voltage regulator, +5 V",DA1,1,ST Microelectronics,L7805CV-DG,TO-220
+5.1 kO,"Resistor, 0.25 W, 5%","R1, R10",2,Yageo,CF-1/4W-5K1J,CF-25
+150 O,"Resistor, 2 W, 5%",R2,1,Yageo,MO-2W-150RJ ,"Axial, THT"
+10 kO,"Resistor, 0.25 W, 5%","R3, R5, R6, R7, R9",5,Yageo,CF-1/4W-10KJ,CF-25
+1 kO,"Resistor, 0.25 W, 5%","R4, R8",2,Yageo,CF-1/4W-1KJ ,CF-25
+1N5404,Rectifier diode,VD1,1,Diotec Semiconductor,1N5404,DO-201AD
+IRFZ48NPBF,N-channel MOSFET,"VT1, VT3",2,Infineon Technologies,IRFZ48NPBF,TO-220AB
+2N5551,NPN bipolar transistor,VT2,1,Diotec Semiconductor,2N5551,TO-92
+L-KLS1-2.50-08-R,8-position connector,XP1,1,KLS Electronics,L-KLS1-2.50-08-R,THT
+DG35C-B-05P-13-200A(H),5-position terminal block,XS1,1,Degson Electronics,DG35C-B-05P-13-200A(H),THT
