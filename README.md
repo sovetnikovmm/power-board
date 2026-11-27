@@ -4,6 +4,12 @@ A power board for a luminaire with a **24 V main incandescent lamp and a backup 
 
 The repository contains the Altium Designer project, PCB views, fabrication files, BOM, and original Russian engineering documentation.
 
+## My Contribution
+
+This project is based on a board design created before my involvement. I transferred the existing design to **Altium Designer** and prepared the schematic, PCB layout, component libraries, bill of materials, and engineering documentation.
+
+My work included component selection, standardizing schematic symbols and footprints, clarifying component parameters, and aligning the schematic, PCB, and documentation. I also **personally assembled and soldered the board**.
+
 ## Block Diagram
 
 [![Block diagram](hardware/images/block-diagram.png)](hardware/images/block-diagram.png)
@@ -52,15 +58,19 @@ VD1 and the input filtering network feed the L7805CV-DG regulator (DA1), which p
 
 The PCB uses **two copper layers** and through-hole components mounted on one side. A five-position terminal block connects the power supply and lamps; an eight-position connector provides the control-board interface.
 
-## Test Bench
+## Assembled Board and Test Bench
 
-> **Test bench photo — to be added.**
+[![Assembled power board with heatsinks](hardware/images/pcb-real.jpg)](hardware/images/pcb-real.jpg)
 
-<!-- Replace the placeholder above with the following line after adding the photo:
-[![Test bench](hardware/images/test-bench.jpg)](hardware/images/test-bench.jpg)
--->
+The assembled power board is mounted on a demonstration stand and connected to the control board. The close-up shows the lamp and supply terminals, inter-board cable, and heatsinks.
 
-During normal operation, the external control board controls the main lamp and its brightness. Lamp feedback is returned to the control board. If the main lamp fails, the control board commands the power board to disable the main channel and enable the backup lamp. The power board does not make the switchover decision independently.
+[![Power board and control board on the shared stand](hardware/images/test-bench.jpg)](hardware/images/test-bench.jpg)
+
+In the system, the control board sets lamp brightness and processes lamp feedback. When a main-lamp failure is detected, it commands the power board to select the backup lamp.
+
+### Hardware and Documentation Versions
+
+The photographs show hardware that I assembled and soldered. Some photographed boards are earlier versions and may differ from the published Altium files in component placement, markings, or implementation details. The Altium files and engineering documents describe the version prepared during my work on the project.
 
 ## Bill of Materials
 
