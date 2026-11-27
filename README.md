@@ -62,7 +62,7 @@ The PCB uses **two copper layers** and through-hole components mounted on one si
 
 [![Assembled power board with heatsinks](hardware/images/power-board_pcb-real.jpg)](hardware/images/power-board_pcb-real.jpg)
 
-The assembled power board is mounted on a demonstration stand and connected to the control board. The close-up shows the lamp and supply terminals, inter-board cable, and heatsinks.
+The assembled power board is mounted on a demonstration stand and connected to the [Control Board](https://github.com/sovetnikovmm/control-board). The close-up shows the lamp and supply terminals, inter-board cable, and heatsinks.
 In the system, the control board sets lamp brightness and processes lamp feedback. When a main-lamp failure is detected, it commands the power board to select the backup lamp.
 
 ### Hardware and Documentation Versions
